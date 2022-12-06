@@ -1,31 +1,15 @@
-/* indie-flower-regular - latin */
-@font-face {
-	font-family: "Indie Flower";
-	font-style: normal;
-	font-weight: 400;
-	src: local("Indie Flower"), local("IndieFlower"), url("../fonts/indie-flower-v12-latin-regular.woff2") format("woff2"),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/indie-flower-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
 
-/* dekko-regular - latin */
-@font-face {
-	font-family: "Dekko";
-	font-style: normal;
-	font-weight: 400;
-	src: local("Dekko"), url("../fonts/dekko-v7-latin-regular.woff2") format("woff2"),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/dekko-v7-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
 
 body {
-	font-family: "Dekko", cursive;
-	background-color: #2e6d79;
+	font-family: "Regular", serif;
+	background-color: #66aa6a;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	font-family: "Indie Flower", cursive;
+	font-family: "Regular", serif;
 	opacity: 0.7;
 }
 
@@ -39,7 +23,7 @@ h4 {
 }
 
 .btn-lg {
-	background-color: #2e6d79;
+	background-color: #1c4b22;
 	margin: 2rem 0;
 }
 
